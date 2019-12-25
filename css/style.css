@@ -1,0 +1,85 @@
+
+body {
+    background-color: #000000;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; */
+  color: #ffffff;
+  padding: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.first{
+    display: flex;
+}
+a{text-decoration: none;}
+.menu{
+    width: 20%;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+
+    align-content: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+    .second{
+        flex-direction: column;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+       
+    }
+    .third{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 72%;
+        margin: 50px auto;
+        align-content: center;
+    }
+    #message{
+         width:50%; 
+         display:flex; 
+         flex-wrap:wrap;
+    }
+
+
+    .gett{
+        border-radius: 10px;
+        background-color: lightskyblue;
+        width: 300px;
+
+    }
+    
+    .fourth{
+        display: flex;
+        flex-wrap:nowrap;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0px auto;
+        align-content: center;
+        
+    }
+     .stayproductive{
+        width: 50%;
+        display: flex;
+    } 
+    .imgs{
+        width: 95%;
+    }
+
+    #productive{
+        text-align:left;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0px;
+    }
