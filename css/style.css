@@ -1,9 +1,6 @@
 
 body {
     background-color: #000000;
-  /* background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover; */
   color: #ffffff;
   padding: 20px 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +18,7 @@ a{text-decoration: none;}
     justify-content: space-between;
 }
 .container{
-
+    background-image: url('..images/bg-curvy-destop.svg');
     align-content: center;
     justify-content: center;
     width: 80%;
@@ -51,7 +48,6 @@ a{text-decoration: none;}
          display:flex; 
          flex-wrap:wrap;
     }
-
 
     .gett{
         border-radius: 10px;
@@ -83,3 +79,69 @@ a{text-decoration: none;}
         flex-wrap: wrap;
         margin-right: 0px;
     }
+
+    .fifth{
+        width: 100%;
+    }
+    .boxholder{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 35px;
+        left: -50px;
+    }
+
+     .quoteimage{
+        float: left;
+          
+    } 
+    .boxes{
+        width: 30%;
+        height: 150px;
+        display: flex;
+        background-color: #808080;
+    }
+    .sixth{
+        position: relative;
+        top: 100px;
+        width: 70%;
+        background-color:  #808080;
+        align-content: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding: 0 10px;
+        font-size: 14px;
+        padding: 20px;
+        padding-bottom: 30px;
+    }
+    button{
+        border-radius: 10px;
+        margin-left: 10px;
+        background-color: skyblue;
+    }
+    .email{
+        border-radius: 10px;
+        padding: 7px 30px 7px 70px;
+        width: 150px;
+    }
+    .footer{
+        border-color: hsl(216, 53%, 9%);
+        height: 400px;
+        width: 100%;
+    }
+
+     @media screen and (min-width: 375px){
+        #message, 
+        .stayproductive, 
+        .boxes, 
+        .third, 
+        .fourth, 
+        .gett, 
+        .first, 
+        .fifth, 
+        {
+            width: 100%;
+        }
+    } 
